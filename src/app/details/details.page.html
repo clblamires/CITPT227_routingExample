@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ name.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>{{ name.name }}</h1>
+  <a href="mailto:{{ name.email }}">
+    {{ name.email }}
+  </a>
+  <br>
+  <h2>{{ name.id }}</h2>
+</ion-content>
